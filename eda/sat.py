@@ -146,3 +146,8 @@ def findLargestNum(nums):
         left += 1
         right -= 1
     return largest
+
+
+def findLargestNum(nums):
+    nums.sort()
+    return nums[-1]
